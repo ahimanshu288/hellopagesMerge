@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="smallMargin">5dp</dimen>
+    <dimen name="mediumMargin">10dp</dimen>
+    <dimen name="largeMargin">15dp</dimen>
+
+    <dimen name="smallPadding">5dp</dimen>
+    <dimen name="mediumPadding">10dp</dimen>
+    <dimen name="largePadding">15dp</dimen>
+
+    <dimen name="btnTextSize">16sp</dimen>
+    <dimen name="btnHeight">40dp</dimen>
+
+    <!-- Top Bar dimensions-->
+    <dimen name="topBarHeight">50dp</dimen>
+    <dimen name="topBarTextSize">25sp</dimen>
+
+    <!-- Bottom bar dimensions -->
+    <dimen name="bottomBarHeight">60dp</dimen>
+    <dimen name="bottomIconSize">30dp</dimen>
+
+    <!-- activityMain dimensions -->
+    <dimen name="titleTextSize">20sp</dimen>
+    <dimen name="editBoxHeight">70dp</dimen>
+    <dimen name="conditionText">10sp</dimen>
+
+    <!-- Ask doc layout Dimensions-->
+    <dimen name="askDocEditHeight">150dp</dimen>
+
+
+    <dimen name="header_height">250dp</dimen>
+    <dimen name="header_logo_size">100dp</dimen>
+
+
+    <!-- sign in layout dimensions -->
+    <dimen name="fbtwitterTextSize">22sp</dimen>
+
+    <!-- doctor response layout -->
+    <dimen name="doctorNameTextSize">18sp</dimen>
+    <dimen name="doctorDesignationTextSize">16sp</dimen>
+
+    <dimen name="circularDocThumb">80dp</dimen>
+
+    <!-- my info layout -->
+    <dimen name="myInfoTextSize">16sp</dimen>
+    <dimen name="myInfoTitleTextSize">16sp</dimen>
+    <dimen name="myInfoEdtTextSize">14sp</dimen>
+    <dimen name="myInfoEdtHeight">35dp</dimen>
+    <dimen name="medicationEdtHeight">120dp</dimen>
+    <dimen name="popupWidth">300dp</dimen>
+    <dimen name="bmiTextSize">16sp</dimen>
+
+    <dimen name="homeItemHeight">100dp</dimen>
+    <dimen name="navigation_drawer_width">250dp</dimen>
+<dimen name="a_knowlarity_product_text_size">14sp</dimen>
+    <dimen name="circle_indicator_radius">3dp</dimen>
+    <dimen name="margin_from_top_in_number_screen">40dp</dimen>
+</resources>

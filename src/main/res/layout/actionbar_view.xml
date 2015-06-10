@@ -1,0 +1,65 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/rl2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/imageView"
+        android:id="@+id/rl1">
+
+
+        <ImageView
+            android:id="@+id/emailview"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:alpha="0.2"
+            android:contentDescription="@string/app_name"
+            android:layout_centerVertical="true"/>
+       <EditText
+        android:id="@+id/searchfield"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:background="#00000000"
+           android:ems="10"
+           android:layout_toLeftOf="@+id/search"
+         android:inputType="text"/>
+        <requestFocus/>
+
+        <ImageView
+            android:id="@+id/search"
+            android:src="@drawable/search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+    <View
+        android:layout_width="310dp"
+        android:layout_height="0.1dp"
+        android:background="@color/white"
+        android:id="@+id/view5"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+       />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"/>
+
+
+
+</RelativeLayout>

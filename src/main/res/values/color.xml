@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="topBarColor">#00b9fa</color>
+    <color name="topBarColorDark">#00b9fa</color>
+    <color name="fadeTextColor">#ffafada8</color>
+    <color name="trans_white">#20ffffff</color>
+    <color name="trans">#00000000</color>
+    <color name="blue">#cc33b5e5</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="dark_grey">#282828</color>
+    <color name="trans_dark_grey">#80282828</color>
+    <color name="grey">#363636</color>
+    <color name="black_grey">#ff1f1f1f</color>
+    <color name="init_gradient">#ff98CE00</color>
+    <color name="color0_gradient">#ff98CE00</color>
+    <color name="color1_gradient">#8098CE00</color>
+    <color name="transparent">#00000000</color>
+    <color name="tab_highlight">#ff9ecfbf</color>
+
+    <color name="bottomBarBg">#ffCCCCCC</color>
+    <color name="verticalBarColor">#e8efef</color>
+    <color name="facebookSignIn">#ff354b8b</color>
+    <color name="twitterSignIn">#ff3781c8</color>
+    <color name="draweremail">#333333</color>
+    <color name="drawerback">#f1f0f0</color>
+
+    <color name="maintext">#b2eafd</color>
+
+    <color name="drawerTop">#ff636363</color>
+    <color name="bgColor">#e8efef</color>
+    <color name="onSelect">#dddddd</color>
+
+    <!--Button Seletor Color-->
+    <color name="pressed">#FF00A2DC</color>
+    <color name="unpressed">#00b9fa</color>
+    <color name="notificationbackcolor">#Ef0c00</color>
+    <color name="first_location_finder_screen_background">#00B9E7</color>
+    <color name="a_knowlarity_product_text_color">#AADEF4</color>
+    <color name="text_color_search">#C4E9F9</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="verify_text_color_after">#00b9e6</color>
+    <color name="verify_text_color_before">#D8D8D8</color>
+</resources>

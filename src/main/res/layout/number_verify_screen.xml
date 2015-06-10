@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f7f7">
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentTop="true"
+        android:background="#46B9E8">
+        <com.knowlarity.helpers.FontAwesome
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:id="@+id/back_btn"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:shadowColor="#46B9E8"
+            android:textColor="#F2FAFC"
+            android:text="t"/>
+        <com.knowlarity.helpers.LatoRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_contact"
+            android:shadowColor="#46B9E8"
+            android:textColor="#F2FAFC"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:layout_toRightOf="@+id/back_btn"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="22dp"
+            android:text="Contact"/>
+        </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/rl_header"
+        android:weightSum="10">
+    <ImageView
+        android:id="@+id/img_background"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:background="@drawable/enter_number_back"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="@dimen/margin_from_top_in_number_screen"
+        android:layout_marginRight="50dp"
+        android:layout_weight="4.75" />
+    <RelativeLayout
+        android:id="@+id/rl_text"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0">
+        <com.knowlarity.helpers.LatoRegular
+            android:id="@+id/textView_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:hint="Easiest way to reach out to local businesses"
+            android:textSize="12sp"/>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_entries"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="4.25"
+        android:background="@drawable/shadow_background">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <RelativeLayout
+                android:id="@+id/rl_enter_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1.33">
+
+                <com.knowlarity.helpers.LatoRegular
+                    android:id="@+id/textView_mobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="Enter your mobile number"
+                    android:textSize="18sp" />
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_alignParentRight="true">
+                <com.knowlarity.helpers.DotsProgressBar
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dots_progress" />
+                 </RelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#000000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_edit"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1.33">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#00b9e6" />
+
+                <TextView
+                    android:id="@+id/textView_country_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="+91"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/editText_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_toRightOf="@+id/textView_country_code"
+                    android:background="@drawable/border_of_edittext"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textColor="#00b9e6" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1.33">
+
+                <com.knowlarity.helpers.LatoRegular
+                    android:id="@+id/textView_verify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:text="VERIFY"
+                    android:textColor="@color/verify_text_color_before"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+    </RelativeLayout>
